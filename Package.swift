@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "CodableAlamofire",
+    platforms: [
+        .iOS(.v10),
+    ],
     products: [
         .library(name: "CodableAlamofire", targets: ["CodableAlamofire"]),
     ],
